@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "novel_tools_gui"
+version = "0.1.0"
+description = "GUI interface for novel_tools."
+authors = ["Yue Wu <wuyuejl97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyQt6 = "^6.2.2"
+novel-tools = {git = "https://github.com/ALMSIVI/novel_tools.git"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
